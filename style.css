@@ -1,0 +1,37 @@
+body
+{
+    background-color:rgb(255, 255, 255);
+}
+
+.logo img 
+{
+    width: 10%;  /* A largura será 50% do tamanho original */
+
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento */
+    text-align: right; /* Alinhar para o lado direito */
+    margin-top: -30px;
+    transition: all 0.3s; /* Suaviza as transições */
+    margin-right: 30px;
+}
+
+li {
+    display: inline-block; /* Organiza os itens na horizontal */
+    margin-right: 20px; /* Espaçamento entre os botões */
+}
+
+button {
+    padding: 7px 50px; /* Tamanho do botão */
+    cursor: pointer; /* Cursor em forma de mãozinha */
+    border: 1px solid #ccc; /* Borda do botão */
+    border-radius: 12px; /* Cantos arredondados */
+    background-color: #f0f0f0; /* Cor de fundo do botão */
+    transition: background-color 0.5s; /* Efeito de transição na cor */
+}
+
+button:hover {
+    background-color: #5d636454; /* Cor de fundo ao passar o mouse */
+}
