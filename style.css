@@ -1,37 +1,70 @@
+
+
+.button-container
+{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.no-border {
+    background-color: #ffffff; /* Cor do fundo do botão */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none; /* Sem borda */
+    border-radius: 8px; /* Borda arredondada */
+    transition: background-color 0.3s ease;
+}
+
+.no-border:hover {
+    background-color: #0000001f; /* Cor do fundo no hover */
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body
 {
-    background-color:rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: #ccc;
+    font-size:srem;
+}
+
+.parallax
+{
+    background-image:url(img1.jpg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2
+{
+    background-image:url(img2.jpg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .logo img 
 {
-    width: 10%;  /* A largura será 50% do tamanho original */
-
-}
-
-ul {
-    list-style-type: none; /* Remove os marcadores da lista */
-    padding: 0; /* Remove o preenchimento */
-    text-align: right; /* Alinhar para o lado direito */
-    margin-top: -30px;
-    transition: all 0.3s; /* Suaviza as transições */
-    margin-right: 30px;
-}
-
-li {
-    display: inline-block; /* Organiza os itens na horizontal */
-    margin-right: 20px; /* Espaçamento entre os botões */
-}
-
-button {
-    padding: 7px 50px; /* Tamanho do botão */
-    cursor: pointer; /* Cursor em forma de mãozinha */
-    border: 1px solid #ccc; /* Borda do botão */
-    border-radius: 12px; /* Cantos arredondados */
-    background-color: #f0f0f0; /* Cor de fundo do botão */
-    transition: background-color 0.5s; /* Efeito de transição na cor */
-}
-
-button:hover {
-    background-color: #5d636454; /* Cor de fundo ao passar o mouse */
+    width: 10%;
+    margin-top: -40px;
 }
